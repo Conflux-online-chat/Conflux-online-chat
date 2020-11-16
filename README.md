@@ -6,7 +6,7 @@ Hosted at -
 # Built on -
 Backend - NodeJs, ExpressJs \
 Database - MongoDB \
-Frontend - jQuery, Bootstrap, EJS templating engine \
+Frontend - jQuery and JavaScript, Bootstrap, EJS templating engine \
 Socket - Pusher
 
 # Working snapshots - 
