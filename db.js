@@ -1,7 +1,7 @@
 const MongoClient = require("mongodb").MongoClient;
 const ObjectID = require("mongodb").ObjectID;
 const dbname = "chat-app";
-const url = `mongodb://localhost:27017/${dbname}`;
+const url = `mongodb+srv://conflux:conflux@conflux.e0fak.mongodb.net/conflux?retryWrites=true&w=majority/${dbname}`;
 const mongoOptions = { useNewUrlParser: true };
 
 const state = {
