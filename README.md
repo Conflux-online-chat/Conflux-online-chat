@@ -6,7 +6,7 @@ Hosted at - [Conflux Online Chat](https://immense-beach-84230.herokuapp.com/)
 # Built on -
 Backend - NodeJs, ExpressJs \
 Database - MongoDB \
-Frontend - jQuery and JavaScript, Bootstrap, EJS templating engine \
+Frontend - JS and JavaScript, Bootstrap, EJS templating engine \
 Socket - Pusher
 
 # Working snapshots - 
