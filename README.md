@@ -11,4 +11,7 @@ Socket - Pusher
 
 # Working snapshots - 
 
+# Contributors -
+* Daksh
+* Aansh
 
