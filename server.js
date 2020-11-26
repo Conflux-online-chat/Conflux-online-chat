@@ -12,10 +12,10 @@ var moment = require('moment');
 var htmlToText = require('html-to-text');
 var Regex = require("regex");
 var pusher = new Pusher({
-    appId: '',
+    appId: '1107889',
     key: '',
     secret: '',
-    cluster: '',
+    cluster: 'mt1',
     encrypted: true
 });
 const port = process.env.PORT || 3000;
@@ -539,7 +539,7 @@ app.post('/addnewmsg', (request, response) => {
         if (request.session.user.chats.includes(chat_id) && msg.trim() != '') {
             var toInsert = {
                 "msg": msg,
-                "time": moment().format('MMMM Do YYYY, h:mm a') + "",
+                "time": moment().utcOffset("+05:30").format('MMMM Do YYYY, h:mm a') + "",
                 "by": request.session.user.user_id,
             };
 
