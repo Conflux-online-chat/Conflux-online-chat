@@ -19,13 +19,15 @@
     </style>
 </head>
 
-<body style="background:#E6ECF0;font-family: 'Quicksand', sans-serif;background-image: url('https://images.unsplash.com/photo-1605423357383-8d9345d6d83e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'); background-repeat: no-repeat; background-size: cover; height:100%;">
+<body style="background:#E6ECF0;font-family: 'Quicksand', sans-serif;background-image: url('https://images.unsplash.com/photo-1605423357383-8d9345d6d83e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');background-attachment: fixed; background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <br><br>
-                <a href="/"><h2 class="display-2 text-center text-light">Conflux</h2></a>
+                <a href="/">
+                    <h2 class="display-2 text-center text-light">Conflux</h2>
+                </a>
                 <br>
                 <div class="card" style="width: 100%;">
                     <div class="card-body">
@@ -83,12 +85,12 @@
                 }).then((data) => {
                     if (data.error === false) {
                         if (data.found === false) {
-                            username_status.innerHTML="<div style='color:green;font-size:25px;'><i class='fa fa-check-circle'></i></div>";
+                            username_status.innerHTML = "<div style='color:green;font-size:25px;'><i class='fa fa-check-circle'></i></div>";
                         } else {
-                            username_status.innerHTML="<div style='color:red;font-size:25px;'><i class='fa fa-times-circle'></i></div>";
+                            username_status.innerHTML = "<div style='color:red;font-size:25px;'><i class='fa fa-times-circle'></i></div>";
                         }
                     } else {
-                        username_status.innerHTML="";
+                        username_status.innerHTML = "";
                     }
                 });
 
