@@ -3,32 +3,11 @@ html {
     x-overflow: hidden;
 }
 
-#main-img {
-    width: 100%;
-}
-
-@media screen and (max-width: 767px) {
-    #main-img {
-        background-image: url("https://images.unsplash.com/photo-1571639543218-31008677212d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-    }
-}
-
-@media screen and (min-width: 768px) {
-    #main-img {
-        background-image: url("https://images.unsplash.com/photo-1571639543218-31008677212d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-    }
-}
-
-@media (min-width: 992px) {
-    #main-img {
-        background-image: url("");
-    }
-}
-
-@media (min-width: 1200px) {
-    #main-img {
-        background-image: url("");
-    }
+.intial {
+    background-image: url(".././image/mainImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
 }
 
 
@@ -184,12 +163,12 @@ html {
 @charset "UTF-8";
 
 /*!
- * animate.css -http://daneden.me/animate
- * Version - 3.5.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2017 Daniel Eden
- */
+   * animate.css -http://daneden.me/animate
+   * Version - 3.5.2
+   * Licensed under the MIT license - http://opensource.org/licenses/MIT
+   *
+   * Copyright (c) 2017 Daniel Eden
+   */
 
 .animated {
     animation-duration: 1s;
@@ -1776,8 +1755,8 @@ html {
 
 
 /* #timeline .timeline-movement .timeline-item {
-  padding: 20px 0;
-} */
+    padding: 20px 0;
+  } */
 
 #timeline .timeline-movement .timeline-item .timeline-panel {
     border: 1px solid #d4d4d4;
@@ -2229,5 +2208,37 @@ footer .newsletter i {
     }
     h2 {
         font-size: 90px
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .intial {
+        background-image: url(".././image/mainImage.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #main-img {
+        background-image: url(".././image/final481.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .intial {
+        height: 1600px;
+        background: right;
+    }
+    .animated {
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .big {
+        font-size: 2.0em !important;
+    }
+    .navbar {
+        min-height: 120px;
+        font-size: 2.0em !important;
     }
 }
