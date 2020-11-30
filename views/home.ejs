@@ -283,6 +283,28 @@
                 opacity: 0;
             }
         }
+        
+        @media screen and (max-width: 1000px) {
+            .henry {
+                margin-top: 2vh;
+                margin-left: 2vh;
+                margin-right: 2vh;
+                background: #fff;
+                text-align: center;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            .messages-div {
+                margin-right: 2vh;
+            }
+            .chats-div {
+                margin-left: 2vh;
+                margin-right: 2vh;
+                margin-left: 2vh;
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+            }
+        }
     </style>
 </head>
 
@@ -341,7 +363,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-md-2 text-center henry">
                 <div style="background:#fff;text-align:center;border:1px solid #ddd;border-radius:5px;">
                     <br>
                     <div class="img2">
@@ -391,8 +413,8 @@
         var chat_now = null;
         var noofmsgs = 0;
         var lastmsg = null;
-        var pusher = new Pusher('c84f4087b73a11ea3d8d', {
-            cluster: 'ap2',
+        var pusher = new Pusher('32d23eb4f0844daf9b83', {
+            cluster: 'mt1',
             forceTLS: true
         });
 
@@ -438,7 +460,7 @@
             document.querySelector('#bottom-bar').classList.remove('bottom-bar');
 
             if (bool) {
-                document.querySelector('.messages-div').innerHTML = '<div class="top-bar" style="background:#fff;height:10vh;margin-left:2vh;padding:10px 15px;border:1px solid #ddd;border-radius:5px 5px 0px 0px;"><div class="img">' + chatname.substr(0, 1) + '</div><div class="chatname" style="margin-top:15px;"><b>' + chatname + '</b></div></li></div><div class="messages-inner-div"  style="background:#fff;height:60vh !important;margin-left:2vh;padding:0;border-right:1px solid #ddd;border-left:1px solid #ddd;overflow: auto;"><div style="padding:15px 25px;" id="custom-text"></div></div>';
+                document.querySelector('.messages-div').innerHTML = '<div  class="top-bar piggy" style= "background:#fff;height:10vh;margin-left:2vh;padding:10px 15px;border:1px solid #ddd;border-radius:5px 5px 0px 0px;"><div class="img">' + chatname.substr(0, 1) + '</div><div class="chatname piggy" style="margin-top:15px;"><b>' + chatname + '</b></div></li></div><div class="messages-inner-div"  style="clear:left;background:#fff;height:60vh !important;margin-left:2vh;padding:0;border-right:1px solid #ddd;border-left:1px solid #ddd;overflow: auto;"><div style="padding:15px 25px;" id="custom-text"></div></div>';
                 loadmessagesinner(id);
                 document.querySelector(".unseen-out" + id).innerHTML = '';
                 document.querySelector('#custom-text').innerHTML = "Loading messages..";
