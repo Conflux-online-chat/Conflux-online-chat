@@ -2242,3 +2242,49 @@ footer .newsletter i {
         font-size: 2.0em !important;
     }
 }
+
+@media screen and (max-width: 850px) {
+    #main-img {
+        background-image: url(".././image/final481.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .intial {
+        height: 1000px;
+        background: right;
+    }
+    .animated {
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .big {
+        font-size: 2.0em !important;
+    }
+    .navbar {
+        min-height: 120px;
+        font-size: 2.0em !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main-img {
+        background-image: url(".././image/final481.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .intial {
+        height: 800px;
+        background: right;
+    }
+    .animated {
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .big {
+        font-size: 2.0em !important;
+    }
+    .navbar {
+        min-height: 120px;
+        font-size: 2.0em !important;
+    }
+}
