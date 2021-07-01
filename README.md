@@ -18,6 +18,6 @@ Socket - Pusher
 ![Login](https://github.com/Conflux-online-chat/Conflux-online-chat/blob/main/imgs/Image%2001-07-21%20at%2011.45%20AM%20(1).jpeg)
 ![Sign Up](https://github.com/Conflux-online-chat/Conflux-online-chat/blob/main/imgs/Image%2001-07-21%20at%2011.45%20AM%20(2).jpeg)
 # Contributors -
-* Daksh (@Daksh-404)
-* Aansh (@aansh-01)
+* Daksh Gupta (Daksh-404)
+* Aansh Sardana (aansh-01)
 
