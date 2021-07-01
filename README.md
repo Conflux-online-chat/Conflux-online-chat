@@ -12,8 +12,9 @@ Socket - Pusher
 # Working snapshots - 
 
 ![Home](https://github.com/Conflux-online-chat/Conflux-online-chat/blob/main/imgs/Image%2001-07-21%20at%2011.44%20AM.jpeg)
+![Home 2](https://github.com/Conflux-online-chat/Conflux-online-chat/blob/main/imgs/Image%2001-07-21%20at%2011.44%20AM%20(1).jpeg)
 
 # Contributors -
-* Daksh
-* Aansh
+* Daksh (Daksh-404)
+* Aansh ()
 
