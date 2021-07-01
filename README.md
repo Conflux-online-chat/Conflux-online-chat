@@ -11,7 +11,7 @@ Socket - Pusher
 
 # Working snapshots - 
 
-![Home]("Conflux-online-chat/imgs/Image 01-07-21 at 11.44 AM (1).jpeg")
+![Home](https://github.com/Conflux-online-chat/Conflux-online-chat/blob/main/imgs/Image%2001-07-21%20at%2011.44%20AM.jpeg)
 
 # Contributors -
 * Daksh
