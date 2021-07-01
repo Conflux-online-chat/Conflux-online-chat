@@ -19,5 +19,5 @@ Socket - Pusher
 ![Sign Up](https://github.com/Conflux-online-chat/Conflux-online-chat/blob/main/imgs/Image%2001-07-21%20at%2011.45%20AM%20(2).jpeg)
 # Contributors -
 * Daksh (Daksh-404)
-* Aansh ()
+* Aansh (aansh-01)
 
